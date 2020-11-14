@@ -1,0 +1,77 @@
+
+html {
+    font-size: 100%;
+    box-sizing: border-box; /* keep */
+}
+.over {
+  font-weight: bold;
+}
+
+body {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    background: #fff;
+    color: #333;
+    margin: 0;
+    line-height: 2rem;
+}
+article {
+  margin: 4rem;
+}
+ section {
+   display: flex;
+   justify-content: flex-start;
+
+ }
+ img {
+ max-width: 100%;
+}
+
+div {
+  padding: .4rem;
+}
+h1 {
+  text-align: center;
+  font-weight: 600;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 95%;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 70%;
+}
+
+footer {
+  margin: 0;
+  background: #333;
+  color: #fff;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+footer p {
+  text-align: center;
+  line-height: 20%;
+  font-size: 90%;
+}
+
+.length {
+  text-align: center;
+}
+.github {
+  text-align: center;
+}
+
+
+@media screen and (max-width: 720px) {
+  article {
+    margin: 3rem;
+  }
+  section {
+    display: block;
+  }
+}
